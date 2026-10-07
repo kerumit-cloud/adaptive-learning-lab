@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Uyarlanabilir Sistem Tasarımı | Uygulama Laboratuvarı</title>
+<style>
+:root{--navy:#0f273a;--teal:#177a7e;--aqua:#47b0b3;--gold:#d69d36;--bg:#f5f8fa;--ink:#19232d;--muted:#64717c;--line:#dfe8ec}
+*{box-sizing:border-box} body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+header{background:linear-gradient(135deg,var(--navy),#164b61);color:white;padding:54px 22px 48px}
+.wrap{max-width:1100px;margin:auto}.eyebrow{font-size:13px;letter-spacing:.12em;color:#f1c56f;font-weight:800}
+h1{font-size:clamp(34px,5vw,58px);line-height:1.02;margin:13px 0 12px}.lead{max-width:760px;color:#d5e4ea;font-size:18px;line-height:1.55}
+main{padding:38px 22px 55px}.flow{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 28px}.flow span{background:white;border:1px solid var(--line);border-radius:999px;padding:8px 12px;font-size:13px;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:28px;box-shadow:0 8px 30px rgba(15,39,58,.06)}
+.num{font-size:12px;font-weight:900;letter-spacing:.12em;color:var(--teal)}h2{margin:8px 0 10px;font-size:28px}.card p{color:var(--muted);line-height:1.6;min-height:78px}
+.btn{display:inline-block;text-decoration:none;color:white;background:var(--teal);font-weight:800;border-radius:10px;padding:13px 18px;margin-top:7px}.gold{background:var(--gold);color:#19232d}
+.materials{margin-top:28px}.materials h2{font-size:24px}.links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.links a{background:white;border:1px solid var(--line);border-radius:12px;padding:15px;text-decoration:none;color:var(--navy);font-weight:750}
+.note{margin-top:28px;background:#edf5f6;border-left:5px solid var(--teal);padding:17px 19px;border-radius:8px;color:#38515d;line-height:1.55}
+footer{border-top:1px solid var(--line);padding:25px 22px 38px;color:var(--muted);font-size:13px;text-align:center}
+@media(max-width:760px){.grid,.links{grid-template-columns:1fr}.card p{min-height:0}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<div class="eyebrow">TÜBİTAK 2237-A • UYGULAMA LABORATUVARI</div>
+<h1>Uyarlanabilir Sistem Tasarımı</h1>
+<div class="lead">Öğrenen verisini pedagojik karara dönüştürün; önce hazır sistemi keşfedin, ardından kendi uyarlanabilir sisteminizi tasarlayıp test edin.</div>
+</div></header>
+<main><div class="wrap">
+<div class="flow"><span>1 • Keşfet</span><span>→</span><span>2 • Anla</span><span>→</span><span>3 • Kâğıtta Tasarla</span><span>→</span><span>4 • Designer</span><span>→</span><span>5 • Test Et</span><span>→</span><span>6 • Revize Et</span></div>
+<div class="grid">
+<section class="card"><div class="num">01 • KEŞFET</div><h2>Adaptive Learning Simulator</h2>
+<p>Hazır öğrenci senaryoları üzerinden kriter, yön, ağırlık, IF–THEN kuralı ve adaptasyon kararlarının sistem davranışını nasıl değiştirdiğini inceleyin.</p>
+<a class="btn" href="simulator.html">Simulator'ı Başlat</a></section>
+<section class="card"><div class="num">02 • TASARLA</div><h2>Adaptive System Designer</h2>
+<p>Kendi kriterlerinizi, ağırlıklarınızı, karar düzeylerinizi ve kurallarınızı oluşturun; farklı test öğrencileriyle karar izini ve ortaya çıkan adaptasyonu gözlemleyin.</p>
+<a class="btn gold" href="designer.html">Designer'ı Başlat</a></section>
+</div>
+<section class="materials"><h2>Katılımcı Etkinlik Materyalleri</h2>
+<div class="links">
+<a href="materials/Etkinlik_1_Simulator.docx">Etkinlik 1 — Simulator</a>
+<a href="materials/Etkinlik_2_Designer.docx">Etkinlik 2 — Birlikte Tasarla</a>
+<a href="materials/Etkinlik_3_Kendi_Sistemini_Tasarla.docx">Etkinlik 3 — Kendi Sistemini Tasarla</a>
+</div></section>
+<div class="note"><strong>Çalışma sırası:</strong> Önce Simulator'da sistemi keşfedin. Ardından örnek sistemi Designer'da birlikte kurun. Son aşamada kendi sisteminizi önce çalışma kâğıdında tasarlayın, sonra Designer'a aktarın, üç farklı öğrenci profiliyle test edin ve revize edin.</div>
+</div></main>
+<footer>Bu materyal Prof. Dr. Ali Kürşat ERÜMİT tarafından yapay zeka destekli olarak hazırlanmıştır.<br>Trabzon Üniversitesi</footer>
+</body></html>
